@@ -2,6 +2,27 @@
 
 This project is initially a part of Capstone Design Course in Sungkyunkwan University.
 
+---
+
+## Table of Contents
+
+- [Related Repository](#related-repository)
+- [Motivation](#motivation)
+- [Goals](#goals)
+- [Main Features](#main-features)
+    - [User Features](#user-features)
+    - [Core Features](#core-features)
+    - [Additional Features](#additional-features)
+- [How to Run](#how-to-run)
+- [Tech-Stacks](#tech-stacks)
+- [Frontend Flowchart](#frontend-flowchart)
+- [Environment Variables Example](#environment-variables-example)
+- [Further Development](#further-development)
+- [Contributors](#contributors)
+- [Directory Structure](#directory-structure)
+
+---
+
 ## Related Repository
 
 [API Server](https://github.com/nicolaics/jim-carrier-server)
@@ -49,15 +70,16 @@ Hence, we would like to create a platform in which we combine all available carr
     - Payment proof images are sent to the corresponding user via email.
     - Package images are shared with the relevant user through email.
 
+## How to Run
 
-
-## Prerequisites  
+### Pre-requisites  
 
 Before running this application, ensure you have the following installed:  
 - **[Flutter SDK](https://docs.flutter.dev/get-started/install)**: Install and configure the Flutter SDK for your operating system.  
 - **[Android Studio](https://developer.android.com/studio)**: Install the latest version and set up the required SDK tools and emulator configurations.  
 
-## How to Run
+### Steps
+
 1. Have the recent version of **Android Studio** and **Flutter**.
 2. Go to the **jim-carrier-flutter** directory.
 3. Run the command **flutter run**.
@@ -133,7 +155,7 @@ FIREBASE_WINDOWS_MESSAGING_SENDER_ID=sender_id
 
 There are still some limitations that can be solved in further developments, such as:
 1. Change encryption into RSA-256 instead of AES-256.
-2. Implement kakao payment. 
+2. Implement payment API.
 
 ## Contributors
 
