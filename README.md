@@ -58,7 +58,7 @@ Before running this application, ensure you have the following installed:
 - **[Android Studio](https://developer.android.com/studio)**: Install the latest version and set up the required SDK tools and emulator configurations.  
 
 ## How to Run
-1. Have the recent version of Android Studio and Flutter.
+1. Have the recent version of **Android Studio** and **Flutter**.
 2. Go to the **jim-carrier-flutter** directory.
 3. Run the command **flutter run**.
 
