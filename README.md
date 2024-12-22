@@ -50,10 +50,17 @@ Hence, we would like to create a platform in which we combine all available carr
     - Package images are shared with the relevant user through email.
 
 
+
+## Prerequisites  
+
+Before running this application, ensure you have the following installed:  
+- **[Flutter SDK](https://docs.flutter.dev/get-started/install)**: Install and configure the Flutter SDK for your operating system.  
+- **[Android Studio](https://developer.android.com/studio)**: Install the latest version and set up the required SDK tools and emulator configurations.  
+
 ## How to Run
 1. Have the recent version of Android Studio and Flutter.
-2. Go to the jim-carrier-flutter directory.
-3. Run the command flutter run.
+2. Go to the **jim-carrier-flutter** directory.
+3. Run the command **flutter run**.
 
 ## Tech-Stacks
 
