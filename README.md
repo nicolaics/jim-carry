@@ -81,8 +81,9 @@ Before running this application, ensure you have the following installed:
 ### Steps
 
 1. Have the recent version of **Android Studio** and **Flutter**.
-2. Go to the **jim-carrier-flutter** directory.
-3. Run the command **flutter run**.
+2. Go to the `jim-carrier-flutter` directory.
+3. Run `flutter pub get` to download all the dependencies.
+4. Run the command `flutter run` to run the application.
 
 ## Tech-Stacks
 
