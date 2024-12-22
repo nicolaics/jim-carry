@@ -285,6 +285,19 @@ class _NewOrderState extends State<NewOrder> {
               children: [
                 ElevatedButton(
                   onPressed: () async {
+
+                    if (_weightController.text.trim().isEmpty || _contentsController.text.trim().isEmpty) {
+                      AwesomeDialog(
+                        context: context,
+                        dialogType: DialogType.warning,
+                        animType: AnimType.topSlide,
+                        title: 'Incomplete Details',
+                        desc: 'All details are required to proceed.',
+                        btnOkOnPress: () {},
+                      ).show();
+                      return; // Stop further execution
+                    }
+
                     final orderWeight = _weightController.text.trim();
                     double weight = double.tryParse(orderWeight) ?? 0.0;
 
