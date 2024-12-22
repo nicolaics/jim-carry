@@ -1,51 +1,74 @@
 # Jim Carrier Flutter
 
-## MOTIVATION
-- Living in a foreign country as an international student or immigrant worker can be challenging.  
-- Differences in food, culture, and familiar items from home can make adjusting difficult.  
-- Missing or needing important documents left in the home country is a common issue.  
-- Traditional services like post offices are expensive and slow, making them unsuitable for students or cost-conscious workers.  
-- A solution is utilizing travelers with unused baggage space to transport items at a lower cost.  
-- This approach provides faster delivery and is more affordable for those in need.
+This project is initially a part of Capstone Design Course in Sungkyunkwan University.
 
-## MAIN FEATURES
+## Related Repository
+
+[API Server](https://github.com/nicolaics/jim-carrier-server)
+- This is the repository used for the server, written in Golang.
+
+
+## Motivation
+
+Living in a foreign country as international students or immigrant workers could be difficult. We are not accustomed with foods, cultures, and things that we usually get in our home countries. Hence, at times we miss those kinds of things that existed back home. Also, there are high chances that we left some important documents we left at our home countries that we suddenly need it.
+
+There are some services exist, such as post offices, however, these services are quite expensive and take some time. Hence, as students who have limited amount of money or immigrant workers who want to save money as much as they can, these services are not a suitable option.
+
+The solution to this is that some people who are going back to their home country and/or vice-versa and still have some weight left in the baggage can sold it in a considerably cheaper price to those who need it. With this solution, people can get their stuffs faster with a considerably cheaper price.
+
+## Goals
+
+We want to improve the efficiency and effectiveness on how the users can find each other, the so-called carriers and givers.
+
+Hence, we would like to create a platform in which we combine all available carriers and givers that wanted to use the carriers’ services.
+
+## Main Features
+
 ### User Features:
-•	Create, modify, and delete accounts.
-•	Verification of Account via Emai.
-•	Reset Password.
-•	Add and modify Bank Details.
-•	Communicate via Email.
+
+- Create, modify, and delete accounts.
+- Verification of Account via Emai.
+- Reset Password.
+- Add and modify Bank Details.
+- Communicate via Email.
+
 ### Core Features:
-•	Create, modify, and delete listing.
-•	Create, modify, and delete order.
-•	Confirm Orders by Carrier.
-•	Leave Reviews.
-•	Browse Listings.
+
+- Create, modify, and delete listing.
+- Create, modify, and delete order.
+- Confirm Orders by Carrier.
+- Leave Reviews.
+- Browse Listings.
+
 ### Additional Features:
-•	Uploading Profile Pictures.
-•	Upload Payment Proof.
-•	Upload Package Image.
-•	Email Notifications for Images: 
-  o	Payment proof images are sent to the corresponding user via email.
-  o	Package images are shared with the relevant user through email.
 
-## TECHNICAL STACK
-•	Frontend
--	Flutter framework
--	Dart programming language
--	Figma for initial designs
-•	Backend
--	Golang programming language
--	MySQL for the database
-•	Deployment
--	EC2 instance at Amazon Web Service
--	RDS at Amazon Web Service
--	Tailscale for testing and debugging
-•	Project Management Software Tool
--	Jira by Atlassian
+- Uploading Profile Pictures.
+- Upload Payment Proof.
+- Upload Package Image.
+- Email Notifications for Images:
+    - Payment proof images are sent to the corresponding user via email.
+    - Package images are shared with the relevant user through email.
 
-## FRONTEND FLOWCHART
+## Tech-Stacks
+
+- **Frontend**
+    - Dart with Flutter Framework
+    - Figma for Initial Designs
+- **Backend**
+    - Golang
+    - MySQL for Database
+- **Deployment**
+    - AWS EC2 Instance
+    - AWS RDS
+    - AWS S3 Buckets
+    - Tailscale for Testing and Debugging
+- **Project Management Software Tools**
+    - Jira by Atlassian
+
+## Frontend Flowchart
+
 Below is the visual representation of interaction among different interfaces in our application.
+
 ![Flowchart](https://github.com/user-attachments/assets/ea401fcc-8446-45fa-915a-6a383aa20932)
 
 ## Directory Structure
@@ -166,7 +189,3 @@ Below is the visual representation of interaction among different interfaces in 
 ├── pubspec.yaml
 └── README.md
 ```
-
-
-
-
