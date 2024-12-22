@@ -49,6 +49,11 @@ Hence, we would like to create a platform in which we combine all available carr
     - Payment proof images are sent to the corresponding user via email.
     - Package images are shared with the relevant user through email.
 
+
+## How to Run
+
+1. 
+
 ## Tech-Stacks
 
 - **Frontend**
@@ -70,6 +75,65 @@ Hence, we would like to create a platform in which we combine all available carr
 Below is the visual representation of interaction among different interfaces in our application.
 
 ![Flowchart](https://github.com/user-attachments/assets/ea401fcc-8446-45fa-915a-6a383aa20932)
+
+## Environment Variables Example
+
+```
+ENCRYPTION_NUMBER_KEY=some_key
+ENCRYPTION_NUMBER_IV=some_iv
+ENCRYPTION_HOLDER_KEY=some_key
+ENCRYPTION_HOLDER_IV=some_iv
+BASE_URL=api_url
+
+#FIREBASE
+FIREBASE_PROJECT_ID=some_id
+FIREBASE_AUTH_DOMAIN=some_domain
+FIREBASE_STORAGE_BUCKET=some_bucket
+FIREBASE_IOS_BUNDLE_ID=some_id
+
+# FIREBASE WEB
+FIREBASE_WEB_API_KEY=api_key
+FIREBASE_WEB_APP_ID=app_id
+FIREBASE_MESSAGING_SENDER_ID=sender_id
+
+# FIREBASE ANDROID
+FIREBASE_ANDROID_API_KEY=api_key
+FIREBASE_ANDROID_APP_ID=app_id
+FIREBASE_ANDROID_MESSAGING_SENDER_ID=sender_id
+
+# FIREBASE IOS
+FIREBASE_IOS_API_KEY=api_key
+FIREBASE_IOS_APP_ID=app_id
+FIREBASE_IOS_MESSAGING_SENDER_ID=sender_id
+FIREBASE_IOS_CLIENT_ID=client_id
+
+# FIREBASE MAC OS
+FIREBASE_MAC_OS_API_KEY=api_key
+FIREBASE_MAC_OS_APP_ID=app_id
+FIREBASE_MAC_OS_MESSAGING_SENDER_ID=sender_id
+FIREBASE_MAC_OS_IOS_CLIENT_ID=client_id
+
+# FIREBASE WINDOWS
+FIREBASE_WINDOWS_API_KEY=api_key
+FIREBASE_WINDOWS_APP_ID=app_id
+FIREBASE_WINDOWS_MESSAGING_SENDER_ID=sender_id
+
+```
+
+## Further Development
+
+There are still some limitations that can be solved in further developments, such as:
+1. Change encryption into RSA-256 instead of AES-256.
+2. 
+
+## Contributors
+
+- **Pravas Giri**
+    - [GitHub](https://github.com/PravasGiri7)
+
+- **Nicolai Christian Suhalim**
+    - [LinkedIn](https://www.linkedin.com/in/nicolaics/)
+    - [GitHub](https://github.com/nicolaics/)
 
 ## Directory Structure
 ```
