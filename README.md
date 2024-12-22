@@ -137,8 +137,10 @@ There are still some limitations that can be solved in further developments, suc
 
 ## Contributors
 
-- **Pravas Giri**
+- **Pravas Giri**    
+    - [LinkedIn](https://www.linkedin.com/in/pravas-g-992165141/)
     - [GitHub](https://github.com/PravasGiri7)
+    
 
 - **Nicolai Christian Suhalim**
     - [LinkedIn](https://www.linkedin.com/in/nicolaics/)
