@@ -133,7 +133,7 @@ FIREBASE_WINDOWS_MESSAGING_SENDER_ID=sender_id
 
 There are still some limitations that can be solved in further developments, such as:
 1. Change encryption into RSA-256 instead of AES-256.
-2. Implement proper payment methods. 
+2. Implement kakao payment. 
 
 ## Contributors
 
