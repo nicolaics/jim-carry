@@ -51,8 +51,9 @@ Hence, we would like to create a platform in which we combine all available carr
 
 
 ## How to Run
-
-1. 
+1. Have the recent version of Android Studio and Flutter.
+2. Go to the jim-carrier-flutter directory.
+3. Run the command flutter run.
 
 ## Tech-Stacks
 
